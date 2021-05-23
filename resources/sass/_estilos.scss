@@ -1,0 +1,32 @@
+.bg-dark {
+    background: $dark-primary !important;
+}
+
+.bg-dark .navbar-brand {
+    color: $white !important;
+    font-size: 1.5rem;
+}
+
+.bg-dark .navbar-nav .nav-item a {
+    color: $white;
+
+    &:hover {
+        color: $blue;
+    }
+}
+
+.bg-dark-card {
+    background: $dark-card;
+    color: $white;
+}
+
+.input-dark {
+    background: $dark-secondary;
+    color: $white;
+    border: none;
+
+    &:focus {
+        background: $dark-card;
+        color: $white;
+    }
+}
